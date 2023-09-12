@@ -1,0 +1,21 @@
+/* Set a minimum height for body and root */
+body, #root {
+  min-height: 100vh;
+}
+
+/* Background color for the root element */
+#root {
+  background-color: rgba(0, 0, 0, 0.9); /* Adjust the opacity as needed */
+}
+
+/* Tailwind CSS classes for centering content */
+.flex-center {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Apply the flex-center class to center content inside the root element */
+#root .flex-center {
+  height: 100%;
+}
