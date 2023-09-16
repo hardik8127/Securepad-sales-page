@@ -62,7 +62,7 @@ function Hero() {
             </h3>
           </div>
           <div >
-            <hr className="w-[5px] h-[9px] border-radius-[100px] bg-newgreen  " />
+            <hr className="w-[550px] h-[9px] border-radius-[100px] bg-newgreen  " />
             <h5 className=" text-white text-end  text-[19px] font-poppins">
               63,165.24% raised
             </h5>
