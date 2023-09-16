@@ -7,7 +7,8 @@ function Hero() {
   
 
   return (
-    <section>
+    <section className="container mx-auto grid-cols-2">
+    
       <div>
         <h1 className="justify-center text-center text-[46px] text-newgreen font-poppins">
           Sales Page
@@ -60,11 +61,12 @@ function Hero() {
               </span>
             </h3>
           </div>
-          <div>
-            <hr className="w-[516px] h-[9px] border-radius-[100px] bg-newgreen sm:w[250px] " />
+          <div >
+            <hr className="w-[5px] h-[9px] border-radius-[100px] bg-newgreen  " />
             <h5 className=" text-white text-end  text-[19px] font-poppins">
               63,165.24% raised
             </h5>
+            
           </div>
           <div className="text-white ">
             <h5>Start time : 2023-09-07 09:30:00 UTC+5.5</h5>

@@ -18,7 +18,7 @@ const CoinDescription = () => {
 
   return (
     <section>
-      <div className=" grid-cols  gap-5">
+      <div className="container mx-auto">
         <div>
           <h2 className=" text-white font-poppins text-[59px] text-start px-28 ">
             {" "}
