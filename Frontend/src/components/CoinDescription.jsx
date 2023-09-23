@@ -24,8 +24,8 @@ const CoinDescription = () => {
             {" "}
             Karat Coin
           </h2>
-          <div className="px-28">
-          <p className="text-white font-poppins text-justify mt-2  w-[600px] ">
+          <div style={{width:'100%',padding:'0 11%'}}>
+          <p className="text-white font-poppins text-justify mt-2 ">
             The largest protocol on ZKSync. Karat has over 300,000 wallets
             actively transacting. Each user has verified their web3 wallet and
             their web2 id/behavior data. Karat is a data access control
@@ -42,9 +42,8 @@ const CoinDescription = () => {
             Web3 social, data indexing, advertising delivery, and login
             permission calls.{" "}
           </p>
-          <div className="mr-8 mt-8 border w-[600px] h-[500px] rounded-[20px] ">
-          <p className=" text-center text-white font-poppins text-[39px] ">Token Allocation Image</p>
-          <img src="/" alt="/" />
+          <div className="mr-8 mt-8 border h-[500px] rounded-[20px] " style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', backgroundColor: '#75757559',}}>
+          <p className=" text-center text-white font-poppins text-[39px] " >Token Allocation Image</p>
           </div>
           </div>
 

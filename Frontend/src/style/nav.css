@@ -1,0 +1,90 @@
+html{
+    overflow-x: hidden;
+    background-color: black;
+}
+
+#green1{
+    width: 64%;
+    height: 825px;
+    left: -14%;
+    top: -12%;
+    position: absolute;
+    background: radial-gradient(circle, rgb(18 213 118 / 29%) -2%, rgba(12,12,12,0) 70%);
+}
+#green2{
+    width: 70%;
+    left: 59%;
+    height: 100%;
+    position: absolute;
+    background: radial-gradient(circle, rgb(18 213 118 / 29%) -1%, rgba(12,12,12,0) 64%);
+    top: 70%;
+}
+#green3{
+    width: 50%;
+    left: -11%;
+    height: 679px;
+    position: absolute;
+    background: radial-gradient(circle, rgba(18,213,118,1) -137%, rgba(12,12,12,0) 69%);
+    top: 169%;
+}
+#blue1{
+    width: 61%;
+    height: 679px;
+    left: -21%;
+    position: absolute;
+    background: radial-gradient(circle, #0054ae57 -1%, rgba(12,12,12,0) 69%);
+    top: 63%;
+}
+#blue2{
+    width: 80%;
+    height: 867px;
+    left: 20%;
+    position: absolute;
+    background: radial-gradient(circle, #0054AD -75%, rgba(12,12,12,0) 51%);
+    top: 12%;
+}
+#blue3{
+    width: 50%;
+    left: 57%;
+    height: 679px;
+    position: absolute;
+    background: radial-gradient(circle, rgba(18,213,118,1) -137%, rgba(12,12,12,0) 69%);
+    top: 177%;
+}
+#blue4{
+    width: 50%;
+    left: 57%;
+    height: 679px;
+    position: absolute;
+    background: radial-gradient(circle, #0054ae57 -12%, rgba(12,12,12,0) 72%);
+    top: 131%;
+}
+#blue5{
+    width: 50%;
+    left: 3%;
+    height: 679px;
+    position: absolute;
+    background: radial-gradient(circle, #0054ae57 -12%, rgba(12,12,12,0) 72%);
+    top: 158%;
+
+}
+
+@media screen and (max-width: 1100px) {
+    #green1, #green2, #green3, #blue2, #blue3, #blue4, #blue5 {
+        width: 100% !important;
+    }
+    #green1{
+        background: radial-gradient(circle, rgb(18 213 118 / 29%) 7%, rgba(12,12,12,0) 40%);
+        top:-27%;
+    }
+    #blue1{
+        width: 122% !important;
+        background: radial-gradient(circle, #0054ae57 -1%, rgba(12,12,12,0) 47%);
+    }
+    #blue3{
+        background: radial-gradient(circle, rgba(18,213,118,1) -137%, rgba(12,12,12,0) 58%);
+    }
+    #green3{
+        background: radial-gradient(circle, rgba(18,213,118,1) -137%, rgba(12,12,12,0) 63%);
+    }
+}

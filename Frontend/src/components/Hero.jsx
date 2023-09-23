@@ -1,12 +1,15 @@
 import React, { useState } from "react";
 import karat from "../assets/karat.png";
 import Timer from "./Timer";
+import '../style/hero.css'
+
 
 function Hero() {
 //const [count, setcount] = useState(0)
   
 
   return (
+    
     <section className="container mx-auto grid-cols-2">
     
       <div>
@@ -14,14 +17,11 @@ function Hero() {
           Sales Page
         </h1>
       </div>
-      <div
-        className="p-4 grid grid-cols-1
-     md:grid-cols-2 items-center mt-[-20px] py-16 px-10"
+      <div id='container'
+
       >
-        <div className=" ml-16 border w-[677px] h-[508px] rounded-[15px] ">
-          <img src={karat} className="w-full h-full " />
-        </div>
-        <div className="px-20  ">
+          <img id='img' src={karat} className="h-full " style={{zIndex:'99'}}/>
+        <div style={{width:'100%',padding:'3%',zIndex:'99'}}>
           <h2 className="font-bold  text-[39px] text-white py-2 ">
             Karat Coin
           </h2>
@@ -62,7 +62,7 @@ function Hero() {
             </h3>
           </div>
           <div >
-            <hr className="w-[550px] h-[9px] border-radius-[100px] bg-newgreen  " />
+            <hr className=" h-[9px] border-radius-[100px] bg-newgreen  " />
             <h5 className=" text-white text-end  text-[19px] font-poppins">
               63,165.24% raised
             </h5>
