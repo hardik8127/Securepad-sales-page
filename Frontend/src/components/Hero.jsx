@@ -47,7 +47,7 @@ function Hero() {
                 15,545
               </span>{" "}
               <span className="text-[23px] text-gray-400 font-poppins font-semibold">
-                Supporter
+               Supporter
               </span>
             </h3>
           </div>
@@ -57,7 +57,7 @@ function Hero() {
                 45,546,614
               </span>{" "}
               <span className="text-[23px] text-gray-400 font-poppins font-semibold">
-                /30,000 USDT
+                 / 30,000 USDT
               </span>
             </h3>
           </div>
