@@ -1,5 +1,5 @@
 import { useState } from 'react'
-import { Navbar, Hero, Accordian, CoinDescription, Team, Footer } from './components'
+import { Navbar, Hero, CoinDescription, Team, Footer } from './components'
 
 import './App.css'
 
